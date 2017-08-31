@@ -12,7 +12,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/mvdan/sh/syntax"
+	"github.com/contiv-experimental/sh/syntax"
 )
 
 type action uint

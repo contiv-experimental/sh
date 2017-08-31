@@ -9,7 +9,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/mvdan/sh/syntax"
+	"github.com/contiv-experimental/sh/syntax"
 )
 
 func (r *Runner) quotedElems(pe *syntax.ParamExp) []string {

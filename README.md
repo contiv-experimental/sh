@@ -1,15 +1,17 @@
-# sh
+# Notes
 
-[![GoDoc](https://godoc.org/github.com/mvdan/sh?status.svg)](https://godoc.org/github.com/mvdan/sh)
-[![Build Status](https://travis-ci.org/mvdan/sh.svg?branch=master)](https://travis-ci.org/mvdan/sh)
-[![Coverage Status](https://coveralls.io/repos/github/mvdan/sh/badge.svg?branch=master)](https://coveralls.io/github/mvdan/sh)
+This is a fork of `mvdan/sh` which reverts it back to the point where
+the import paths were Github-based and updates them to point to this
+fork.
+
+# sh
 
 A shell parser, formatter and interpreter. Supports [POSIX Shell],
 [Bash] and [mksh]. Requires Go 1.7 or later.
 
 ### shfmt
 
-	go get -u github.com/mvdan/sh/cmd/shfmt
+	go get -u github.com/contiv-experimental/sh/cmd/shfmt
 
 `shfmt` formats shell programs. It can use tabs or any number of spaces
 to indent. See [canonical.sh](syntax/canonical.sh) for a quick look at
@@ -44,7 +46,7 @@ validity:
 
 ### gosh
 
-	go get -u github.com/mvdan/sh/cmd/gosh
+	go get -u github.com/contiv-experimental/sh/cmd/gosh
 
 Experimental non-interactive shell that uses `interp`. Work in progress,
 so don't expect stability just yet.

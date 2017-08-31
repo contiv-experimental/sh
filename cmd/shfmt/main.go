@@ -12,8 +12,8 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"github.com/mvdan/sh/fileutil"
-	"github.com/mvdan/sh/syntax"
+	"github.com/contiv-experimental/sh/fileutil"
+	"github.com/contiv-experimental/sh/syntax"
 )
 
 var (

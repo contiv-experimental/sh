@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mvdan/sh/syntax"
+	"github.com/contiv-experimental/sh/syntax"
 )
 
 func isBuiltin(name string) bool {

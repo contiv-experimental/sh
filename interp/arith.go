@@ -6,7 +6,7 @@ package interp
 import (
 	"strconv"
 
-	"github.com/mvdan/sh/syntax"
+	"github.com/contiv-experimental/sh/syntax"
 )
 
 func (r *Runner) arithm(expr syntax.ArithmExpr) int {

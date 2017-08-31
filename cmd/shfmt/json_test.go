@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mvdan/sh/syntax"
+	"github.com/contiv-experimental/sh/syntax"
 )
 
 func TestWriteJSON(t *testing.T) {

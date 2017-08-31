@@ -18,7 +18,7 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/mvdan/sh/syntax"
+	"github.com/contiv-experimental/sh/syntax"
 )
 
 // A Runner interprets shell programs. It cannot be reused once a

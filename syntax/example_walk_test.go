@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/mvdan/sh/syntax"
+	"github.com/contiv-experimental/sh/syntax"
 )
 
 func ExampleWalk() {

@@ -10,8 +10,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/mvdan/sh/interp"
-	"github.com/mvdan/sh/syntax"
+	"github.com/contiv-experimental/sh/interp"
+	"github.com/contiv-experimental/sh/syntax"
 )
 
 var (
